@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "node src/bootstrap",
+    "prestart": "npm install"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "os-utils": "^0.0.14",
+    "telegraf": "^3.22.1"
+  },
+  "name": "bot-mother",
+  "version": "1.0.0",
+  "main": "src/bootstrap.js",
+  "repository": "https://github.com/irsooti/mmadre-bot.git",
+  "author": "Daniele <irsooti@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
