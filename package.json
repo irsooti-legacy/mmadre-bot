@@ -1,12 +1,17 @@
 {
   "scripts": {
     "start": "node src/bootstrap",
-    "prestart": "npm install"
+    "dev": "node src/bootstrap",
+    "prestart": "git pull origin master && npm install"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "cloudinary": "^1.11.0",
+    "desktop-screenshot": "^0.1.1",
     "dotenv": "^6.0.0",
+    "ffmpeg": "^0.0.4",
     "os-utils": "^0.0.14",
+    "screencap": "^1.0.0",
     "telegraf": "^3.22.1"
   },
   "name": "bot-mother",
