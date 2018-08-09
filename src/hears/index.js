@@ -1,6 +1,8 @@
 const askIp = require('./askIp');
 const usage = require('./usage');
-const hearFns = [askIp, usage];
+const screenpage = require('./screenpage');
+
+const hearFns = [askIp, usage, screenpage];
 
 module.exports = {
   start: bot => {
